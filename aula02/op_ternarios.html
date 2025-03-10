@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Ternários</title>
+</head>
+<body>
+    <script>
+        //Calcule a area do terreno
+        //Digite o valor do metro quadrado
+        //
+        //
+        //Mostre o resultado:
+        //Abaixo de 300.000,00 Mostre: Terreno barato
+        //Acima de 300.000,00 Mostre: Terreno de alto custo
+
+
+        let largura = window.prompt('Digite a largura:');
+        let comprimento = window.prompt('Digite a comprimento:');
+        let entrada = window.prompt('Digite o valor do terreno:');
+
+        let area = largura * comprimento;
+        let valor_metro_quadrado = area * entrada;
+
+
+        valor_metro_quadrado >= 300.000? document.write('valor do Terro:'+valor_metro_quadrado+'<br/>Terreno de alto custo!') : document.write('valor do Terro:'+valor_metro_quadrado+'<br/>Terreno barato!')
+    </script>
+</body>
+</html>

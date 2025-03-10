@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio hr, mn e sg</title>
+</head>
+<body>
+    <script>
+        let entrada = window.prompt('Digite os segundos');
+       
+        let hr = (entrada / 3600) | 0;
+        let mn =  ((entrada - (hr*3600)) / 60) | 0;
+        let sg =  entrada - (hr*3600) - (mn*60);
+
+        window.alert('Entrada '+entrada+' corresponde '+ hr +' hr, '+mn+' minutos é '+sg+' segundos.');
+    </script> 
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        div {
+            width: 20%;
+            height: 100px;
+            background-color: green;
+            font-size: 15px;
+            margin: 5px;
+            border: 3px solid#ffffff;
+            text-align: center;
+        }
+    </style>
+
+    <main>
+        <div id ="div1" onclick="clicar1()" onmouseenter="entrar1() " onmouseout="sair1()">1</div>
+        <div id ="div2" onclick="clicar2()" onmouseenter="entrar2() " onmouseout="sair2()">2</div>
+        <div id ="div3" onclick="clicar3()" onmouseenter="entrar3() " onmouseout="sair3()">3</div>
+        <div id ="div4" onclick="clicar4()" onmouseenter="entrar4() " onmouseout="sair4()">4</div>
+        <div id ="div5" onclick="clicar5()" onmouseenter="entrar5() " onmouseout="sair5()">5</div>
+        <div id ="div6" onclick="clicar6()" onmouseenter="entrar6() " onmouseout="sair6()">6</div>
+        <div id ="div7" onclick="clicar7()" onmouseenter="entrar7() " onmouseout="sair7()">7</div>
+        <div id ="div8" onclick="clicar8()" onmouseenter="entrar8() " onmouseout="sair8()">8</div>
+        <div id ="div9" onclick="clicar9()" onmouseenter="entrar9() " onmouseout="sair9()">9</div>
+        <div id ="div10" onclick="clicar10()" onmouseenter="entrar10() " onmouseout="sair10()">10</div>
+    </main>
+</body>
+
+<script>    
+    let a = window.document.getElementById('div1')
+    let b = window.document.getElementById('div2')
+    let c = window.document.getElementById('div3')
+    let d = window.document.getElementById('div4')
+    let e = window.document.getElementById('div5')
+    let f = window.document.getElementById('div6')
+    let g = window.document.getElementById('div7')
+    let h = window.document.getElementById('div8')
+    let i = window.document.getElementById('div9')
+    let j = window.document.getElementById('div10')
+    
+    
+    function clicar1(){
+        a.innerText = 'Clicou!';
+        a.style.background = 'red';  
+    }
+    function entrar1(){
+        a.innerText = 'Entrou!';
+        a.style.background = 'yellow';
+    }
+    function sair1(){
+        a.innerText = 'Saiu!';
+        a.style.background = 'green';  
+    }
+
+    function clicar2(){
+        b.innerText = 'Clicou!';
+        b.style.background = 'red';  
+    }
+    function entrar2(){
+        b.innerText = 'Entrou!';
+        b.style.background = 'yellow';
+    }
+    function sair2(){
+        b.innerText = 'Saiu!';
+        b.style.background = 'green';  
+    }
+
+    function clicar3(){
+        c.innerText = 'Clicou!';
+        c.style.background = 'red';  
+    }
+    function entrar3(){
+        c.innerText = 'Entrou!';
+        c.style.background = 'yellow';
+        
+    }
+    function sair3(){
+        c.innerText = 'Saiu!';
+        c.style.background = 'green';  
+    }
+
+    function clicar4(){
+        d.innerText = 'Clicou!';
+        d.style.background = 'red';  
+    }
+    function entrar4(){
+        d.innerText = 'Entrou!';
+        d.style.background = 'yellow';  
+    }
+    function sair4(){
+        d.innerText = 'Saiu!';
+        d.style.background = 'green';  
+    }
+
+    function clicar5(){
+        e.innerText = 'Clicou!';
+        e.style.background = 'red';  
+    }
+    function entrar5(){
+        e.innerText = 'Entrou!';
+        e.style.background = 'yellow';
+    }
+    function sair5(){
+        e.innerText = 'Saiu!';
+        e.style.background = 'green';  
+    }
+
+    function clicar6(){
+        f.innerText = 'Clicou!';
+        f.style.background = 'red';  
+    }
+    function entrar6(){
+        f.innerText = 'Entrou!';
+        f.style.background = 'yellow';
+    }
+    function sair6(){
+        f.innerText = 'Saiu!';
+        f.style.background = 'green';  
+    }
+
+    function clicar7(){
+        g.innerText = 'Clicou!';
+        g.style.background = 'red';  
+    }
+    function entrar7(){
+        g.innerText = 'Entrou!';
+        g.style.background = 'yellow';
+    }
+    function sair7(){
+        g.innerText = 'Saiu!';
+        g.style.background = 'green';  
+    }
+
+    function clicar8(){
+        h.innerText = 'Clicou!';
+        h.style.background = 'red';  
+    }
+    function entrar8(){
+        h.innerText = 'Entrou!';
+        h.style.background = 'yellow';     
+    }
+    function sair8(){
+        h.innerText = 'Saiu!';
+        h.style.background = 'green';  
+    }
+
+    function clicar9(){
+        i.innerText = 'Clicou!';
+        i.style.background = 'red';  
+    }
+    function entrar9(){
+        i.innerText = 'Entrou!';
+        i.style.background = 'yellow'; 
+    }
+    function sair9(){
+        i.innerText = 'Saiu!';
+        i.style.background = 'green';  
+    }
+
+    function clicar10(){
+        j.innerText = 'Clicou!';
+        j.style.background = 'red';  
+    }
+    function entrar10(){
+        j.innerText = 'Entrou!';
+        j.style.background = 'yellow'; 
+    }
+    function sair10(){
+        j.innerText = 'Saiu!';
+        j.style.background = 'green';  
+    }
+    
+    </script>
+
+</html>

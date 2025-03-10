@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Ano</title>
+</head>
+<body>
+    <script>
+        let entrada = window.prompt('Digite os anos para converter:')
+
+        let dia = entrada * 365
+        let meses = (dia / 30) | 0;
+        let semanas = (meses * 4) | 0;
+        let hr = (dia * 24 ) | 0;
+        let mn =  (hr * 60) | 0;
+        let sg =  (mn * 60 );
+
+        window.alert('Entrada '+entrada+' Ano corresponde: '+meses+' meses | '+semanas+' semanas | '+dia+' dia | '+ hr +' hr, | '+mn+' minutos é | '+sg+' segundos.');
+    </script>
+</body>
+</html>
