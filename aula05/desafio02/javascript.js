@@ -23,7 +23,7 @@ function relogio() {
     const data = new Date()
 
     //TRATANDO A HORA
-    let hora = 11
+    let hora = data.getHours()
     hora = hora < 10? "0"+hora : hora
     let minuto = data.getMinutes()
     minuto = minuto < 10? "0"+minuto : minuto
