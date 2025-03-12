@@ -40,9 +40,10 @@ function relogio() {
         document.getElementById("fundo_video_manha").style.display = 'block';
         gif.style.backgroundImage = "url('image/acordando.webp')";
         
-        div_hora.style.backgroundColor = 'rgba(255, 255, 255, 0.253)';
+        div_hora.style.backgroundColor = 'rgba(0, 0, 0, 0.512)';
         div_hora.style.border = '2px solid black';
-        div_hora.style.color = 'black';
+        div_hora.style.color = 'transparent';
+        div_hora.style.webkitTextStroke = '2px white';
     }
     else if (hora >= 12 && hora < 18) {
         resultado.innerText = 'Boa tarde!';
